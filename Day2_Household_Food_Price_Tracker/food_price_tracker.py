@@ -39,10 +39,10 @@ print("Market: ", market_name)
 
 print("")
 
-print(f"Total Food Cost: {naira}{total_cost}")
-print(f"Number of Items: {number_of_items}")
+print(f"Total Food Cost: {naira}{total_cost:.2f}")
+print(f"Number of Items: {number_of_items:.2f}")
 print(f"Average Item Price: {naira}{item_average}")
 print("\n")
-print(f"Most Expensive Item Price: {naira}{costly_item}")
+print(f"Most Expensive Item Price: {naira}{costly_item:.2f}")
 print(f"Cheapest Item Price: {cheap_item}")
 print("")
